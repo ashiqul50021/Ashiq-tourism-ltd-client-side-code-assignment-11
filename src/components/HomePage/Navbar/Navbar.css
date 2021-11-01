@@ -1,0 +1,11 @@
+.logo-img{
+    height: 50px;
+}
+
+.menu-color{
+    color: #90969B !important;
+}
+
+.menu-color:hover{
+    color: black !important;
+}
