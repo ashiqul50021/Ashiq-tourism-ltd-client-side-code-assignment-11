@@ -18,9 +18,11 @@ const Login = () => {
 
     }
     return (
-        <div>
-            <h2>Please Login</h2>
-            <button onClick={handleGoogleLogin} className="btn btn-primary">google Sign in</button>
+        <div  className="container">
+            <div style={{margin:'0 auto'}}>
+            <h2 className="text-center mt-5">Please Login</h2>
+            <button style={{marginLeft:"45%", marginBottom:"30px",marginTop:"20px"}} onClick={handleGoogleLogin} className="btn btn-primary">google Sign in</button>
+            </div>
         </div>
     );
 };

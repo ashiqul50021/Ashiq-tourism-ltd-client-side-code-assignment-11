@@ -3,10 +3,9 @@ import './App.css';
 import Home from './components/Home/Home';
 import Footer from './components/HomePage/Footer/Footer';
 import Navbar from './components/HomePage/Navbar/Navbar';
-import Destination from './components/Destination/Destination';
+
 import AuthProvider from './context/AuthProvider';
-import AboutUs from './components/AboutUs/AboutUs';
-import Blogs from './components/Blogs/Blogs';
+
 import ContactUs from './components/ContactUs/ContactUs';
 import NotFound from './components/NotFound/NotFound';
 import DestinationBooking from './components/DestinationBooking/DestinationBooking';
@@ -37,12 +36,7 @@ function App() {
             <Route exact path="/manageDestinations">
               <ManageDestinations></ManageDestinations>
             </Route>
-            <Route exact path="/aboutus">
-              <AboutUs></AboutUs>
-            </Route>
-            <Route exact path="/blogs">
-              <Blogs></Blogs>
-            </Route>
+           
             <Route exact path="/contactus">
               <ContactUs></ContactUs>
             </Route>
